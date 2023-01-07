@@ -1,0 +1,36 @@
+<!-- <p>class1 works!</p>
+
+
+Enter Name:
+<input type="text" #message placeholder="" [(ngModel)]="enteredText"><br>
+
+ Enter Paasword:<input type="password" #password placeholder="" ngModel>
+<button (click)="OnBtnClick(data)">Send</button>
+
+{{today|date:"dd/MM/yy/hh:mm:ss"}}<br>
+
+
+{{a|currency}}<br>
+
+{{p|percent}}
+
+{{decimal|date:"dd/mm/yy"}} -->
+
+
+
+<div class="container">
+
+<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
+<input type="password" placeholder="password" name="password" ngModel required><br><br>
+<button>Submit</button>
+
+
+
+
+
+</form>
+
+
+
+</div>
