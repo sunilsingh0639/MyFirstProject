@@ -14,25 +14,29 @@ Enter Name:
 
 {{p|percent}}
 
-{{decimal|date:"dd/mm/yy"}} 
+{{decimal|date:"dd/mm/yy"}} -->
 
 
 
 <div class="container">
 
-<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
-    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
-<input type="password" placeholder="password" name="password" ngModel required><br><br>
-<<<<<<< HEAD
-<button type="submit">Submit</button>
+    <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+        <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
+        <input type="password" placeholder="password" name="password" ngModel required><br><br>
+        <<<<<<< HEAD <button type="submit">Submit</button>
 
-=======
-<button>Submit like and </button>
-<button (click)="clickon()" >Submit like and </button>
->>>>>>> a9deabf281e50af4a177754eb35bd86bb1156f86
+            =======
+            <button>Submit like and </button>
+            <button (click)="clickon()">Submit like and </button>
+            >>>>>>> a9deabf281e50af4a177754eb35bd86bb1156f86
 
-</form>
-<p>{{named}}</p>
+    </form>
+    <p>{{named}}</p>
 
+</div>
 
+<div *ngFor="let list of anyArray ; let i = index">
+    <ul>
+        <li>Name : {{list.firstname}}, Surname : {{list.lastname}}, Age: {{list.age}}, Gender : {{list.gender}}</li>
+    </ul>
 </div>

@@ -31,7 +31,7 @@ enteredPass:string='';
 data:any=[];
 
 clickon(){
-  console.log("sunil singh")
+  console.log("sunil singh rathore")
 }
 
 OnBtnClick(data:any){
