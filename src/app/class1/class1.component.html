@@ -40,3 +40,23 @@ Enter Name:
         <li>Name : {{list.firstname}}, Surname : {{list.lastname}}, Age: {{list.age}}, Gender : {{list.gender}}</li>
     </ul>
 </div>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of anyArray">
+                <td>{{list.firstname}}</td>
+                <td>{{list.lastname}}</td>
+                <td>{{list.age}}</td>
+                <td>{{list.gender}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
