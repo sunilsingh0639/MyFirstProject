@@ -32,6 +32,7 @@ data:any=[];
 
 clickon(){
   console.log("sunil rathore dhaderu")
+  console.log("sunil rathore dhaderu")
 }
 
 OnBtnClick(data:any){
