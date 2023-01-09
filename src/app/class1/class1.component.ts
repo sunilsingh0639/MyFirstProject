@@ -49,7 +49,7 @@ OnBtnClick(data:any){
 
 //   p = 10;
 
-// decimal = new Date();  
+ decimal = new Date();  
 
     
 getLoginFormData(Data:any){
