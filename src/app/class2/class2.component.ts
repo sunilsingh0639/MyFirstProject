@@ -18,6 +18,10 @@ export class Class2Component implements OnInit{
 
   nameTouse = "Shankar"
 
+  showAlert(){
+    alert("changed to shoe commits")
+  }
+
 constructor(private Data1Service:Data1Service) { }
 
   ngOnInit(): void {
