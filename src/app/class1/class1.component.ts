@@ -14,6 +14,9 @@ import { Data1Service } from '../data1.service';
 })
 export class Class1Component implements OnInit {
 
+lowercaseName = "Shankar"
+named = this.lowercaseName.toLowerCase()
+
 constructor(private Data1Service:Data1Service) {}
 
 ngOnInit(): void {
