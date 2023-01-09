@@ -47,7 +47,7 @@ OnBtnClick(data:any){
 
 //   a = 1000;
 
-//   p = 10;
+   p = 10;
 
  decimal = new Date();  
 
