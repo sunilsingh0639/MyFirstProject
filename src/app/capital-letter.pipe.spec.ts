@@ -1,5 +1,4 @@
 import { CapitalLetterPipe } from './capital-letter.pipe';
-import { CapitalLetterPipe } from './capital-letter.pipe';
 
 describe('CapitalLetterPipe', () => {
   it('create an instance', () => {
