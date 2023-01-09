@@ -9,7 +9,11 @@ import { Data1Service } from './data1.service';
 })
 export class AppComponent {
   title = 'Subjectmethod';
+<<<<<<< Updated upstream
   changedTitle = "App Ts changes"
+=======
+  
+>>>>>>> Stashed changes
 
 
   constructor(private dataservice:Data1Service){
