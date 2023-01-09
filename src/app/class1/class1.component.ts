@@ -27,7 +27,9 @@ enteredText:any=[];
 enteredPass:string='';
 data:any=[];
 
-
+clickon(){
+  console.log("sunil singh")
+}
 
 OnBtnClick(data:any){
 
