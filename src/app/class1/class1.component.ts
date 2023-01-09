@@ -14,6 +14,9 @@ import { Data1Service } from '../data1.service';
 })
 export class Class1Component implements OnInit {
 
+lowercaseName = "Shankar"
+named = this.lowercaseName.toLowerCase()
+
 constructor(private Data1Service:Data1Service) {}
 
 ngOnInit(): void {
@@ -46,7 +49,7 @@ OnBtnClick(data:any){
 
 //   p = 10;
 
-// decimal = new Date();  
+ decimal = new Date();  
 
     
 getLoginFormData(Data:any){
@@ -58,6 +61,17 @@ this.Data1Service.saveUsers(Data)
 })
 
 }
+
+
+
+anyArray: any[] = [
+  {firstname:"Shankar" , lastname:"Samota" , age: 24 , gender : "Male"},
+  {firstname:"Yogendra" , lastname:"Sharma" , age: 21 , gender : "Male"},
+  {firstname:"Shakti" , lastname:"Singh" , age: 23 , gender : "Male"},
+  {firstname:"Sunil" , lastname:"Rathore" , age: 22 , gender : "Male"},
+  {firstname:"Shubham" , lastname:"Chouhan" , age: 26 , gender : "Male"},
+  {firstname:"Chahat" , lastname:"Sharma" , age: 23 , gender : "Female"},
+  {firstname:"Rohit" , lastname:"Chouhan" , age: 17 , gender : "Male"}]
 
   
 

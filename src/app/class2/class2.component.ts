@@ -16,10 +16,18 @@ export class Class2Component implements OnInit{
   inputText:string='';
   inputPass:string='';
 
+  nameTouse = "Shankar"
+
+  showAlert(){
+    alert("changed to shoe commits")
+  }
+
 constructor(private Data1Service:Data1Service) { }
 
   ngOnInit(): void {
     this.Data1Service.dataEmitter.subscribe((value) => {
+
+
 
 //this.inputText = value;
 //console.log(this.inputText);
@@ -94,6 +102,7 @@ constructor(private Data1Service:Data1Service) { }
 // const result = from(array);
 
 // result.subscribe(x => console.log(x));
+
 
 
 
