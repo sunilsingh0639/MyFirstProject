@@ -9,6 +9,7 @@ import { Data1Service } from './data1.service';
 })
 export class AppComponent {
   title = 'Subjectmethod';
+  changedTitle = "App Ts changes"
 
 
   constructor(private dataservice:Data1Service){
