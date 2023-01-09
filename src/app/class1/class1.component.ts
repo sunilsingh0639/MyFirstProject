@@ -62,6 +62,17 @@ this.Data1Service.saveUsers(Data)
 
 }
 
+
+
+anyArray: any[] = [
+  {firstname:"Shankar" , lastname:"Samota" , age: 24 , gender : "Male"},
+  {firstname:"Yogendra" , lastname:"Sharma" , age: 21 , gender : "Male"},
+  {firstname:"Shakti" , lastname:"Singh" , age: 23 , gender : "Male"},
+  {firstname:"Sunil" , lastname:"Rathore" , age: 22 , gender : "Male"},
+  {firstname:"Shubham" , lastname:"Chouhan" , age: 26 , gender : "Male"},
+  {firstname:"Chahat" , lastname:"Sharma" , age: 23 , gender : "Female"},
+  {firstname:"Rohit" , lastname:"Chouhan" , age: 17 , gender : "Male"}]
+
   
 
 }
