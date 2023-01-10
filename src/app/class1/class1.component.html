@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni offic
 <p>hello , i have added this
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>  
 
-{{decimal|date:"dd/mm/yy"}} 
+{{decimal|date:"dd/mm/yy"}}
 
 <label for="text">Enter Name</label> <br>
 <input type="text" placeholder="name"> <br>
@@ -37,14 +37,18 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni offic
     <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
         <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
         <input type="password" placeholder="password" name="password" ngModel required><br><br>
-         HEAD <button type="submit">Submit</button>
 
+<<<<<<< HEAD
+        <button (click)="clickon()">Submit</button>
+=======
             =======
             <button>Submit </button>
             <button (click)="clickon()">Submit like and </button>
             >>>>>>> a9deabf281e50af4a177754eb35bd86bb1156f86
+>>>>>>> 99f235445f34632b24cef221b1acb8ba61c1bb2b
 
     </form>
+
     <p>{{named}}</p>
 
 </div>
