@@ -9,7 +9,6 @@ import { Class2Component } from './class2/class2.component';
 import { Data1Service } from './data1.service';
 import { CapitalLetterPipe } from './capital-letter.pipe';
 import { HttpClient } from '@angular/common/http';
-import { HttpClientModule } from '@angular/common/http';
 
 
 
