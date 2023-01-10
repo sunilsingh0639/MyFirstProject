@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { Data1Service } from './data1.service';
 
+
 describe('Data1Service', () => {
   let service: Data1Service;
 
