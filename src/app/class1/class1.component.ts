@@ -31,7 +31,8 @@ enteredPass:string='';
 data:any=[];
 
 clickon(){
-  console.log("sunil singh rathore")
+  console.log("sunil rathore dhaderu")
+  
 }
 
 OnBtnClick(data:any){
@@ -47,7 +48,7 @@ OnBtnClick(data:any){
 
 //   a = 1000;
 
-   p = 10;
+  
 
  decimal = new Date();  
 
