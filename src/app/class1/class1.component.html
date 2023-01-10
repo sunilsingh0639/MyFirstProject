@@ -38,14 +38,18 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni offic
         <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
         <input type="password" placeholder="password" name="password" ngModel required><br><br>
 
-<<<<<<< HEAD
+<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
+<input type="password" placeholder="password" name="password" ngModel required><br><br>
+<button>Submit</button>
+
+
+
         <button (click)="clickon()">Submit</button>
-=======
-            =======
+
             <button>Submit </button>
             <button (click)="clickon()">Submit like and </button>
-            >>>>>>> a9deabf281e50af4a177754eb35bd86bb1156f86
->>>>>>> 99f235445f34632b24cef221b1acb8ba61c1bb2b
+           
 
     </form>
 
