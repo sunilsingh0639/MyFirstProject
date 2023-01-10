@@ -20,7 +20,36 @@ Enter Name:
 
 
 <div class="container">
-    hfueu
+
+
+<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
+<input type="password" placeholder="password" name="password" ngModel required><br><br>
+
+<p>hello , i have added this
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
+<p>hello , i have added this
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
+<p>hello , i have added this
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>  
+
+{{decimal|date:"dd/mm/yy"}}
+
+<label for="text">Enter Name</label> <br>
+<input type="text" placeholder="name"> <br>
+<label for="text">Enter E-mail</label> <br>
+<input type="email" placeholder="Enter Email"> <br>
+<label for="number">Mobile Number</label>
+<input type="number" placeholder="enter number">
+
+<button>Submit</button>
+
+
+
+
+<div class="container">
+
+ main
     <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
         <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
         <input type="password" placeholder="password" name="password" ngModel required><br><br>
