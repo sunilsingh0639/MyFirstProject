@@ -11,6 +11,9 @@ import { CapitalLetterPipe } from './capital-letter.pipe';
 <<<<<<< Updated upstream
 =======
 import { HttpClient } from '@angular/common/http';
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 
