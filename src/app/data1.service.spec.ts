@@ -2,6 +2,8 @@ import { TestBed } from '@angular/core/testing';
 
 import { Data1Service } from './data1.service';
 
+import { CapitalLetterPipe } from './capital-letter.pipe';
+
 describe('Data1Service', () => {
   let service: Data1Service;
 
