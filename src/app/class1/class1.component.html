@@ -20,86 +20,82 @@ Enter Name:
 
 
 <div class="container">
-hfueu
-<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
-    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
-<input type="password" placeholder="password" name="password" ngModel required><br><br>
-
-<p>hello , i have added this
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
-<p>hello , i have added this
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
-<p>hello , i have added this
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>  
-
-{{decimal|date:"dd/mm/yy"}}
-
-<label for="text">Enter Name</label> <br>
-<input type="text" placeholder="name"> <br>
-<label for="text">Enter E-mail</label> <br>
-<input type="email" placeholder="Enter Email"> <br>
-<label for="number">Mobile Number</label>
-<input type="number" placeholder="enter number">
-
-<button>Submit</button>
-
-
-
-<div class="container">
-
+    hfueu
     <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
         <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
         <input type="password" placeholder="password" name="password" ngModel required><br><br>
-<<<<<<< HEAD
 
-<form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
-    <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
-<input type="password" placeholder="password" name="password" ngModel required><br><br>
-<button>Submit</button>
+        <p>hello , i have added this
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum
+            accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
+        <p>hello , i have added this
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum
+            accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
+        <p>hello , i have added this
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum
+            accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
+
+        {{decimal|date:"dd/mm/yy"}}
+
+        <label for="text">Enter Name</label> <br>
+        <input type="text" placeholder="name"> <br>
+        <label for="text">Enter E-mail</label> <br>
+        <input type="email" placeholder="Enter Email"> <br>
+        <label for="number">Mobile Number</label>
+        <input type="number" placeholder="enter number">
+        <label for=""><Address></Address></label>
+        <input type="number" placeholder="Address">
+
+
+        <button>Submit</button>
 
 
 
-=======
+        <div class="container">
+
+            <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+                <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
+                <input type="password" placeholder="password" name="password" ngModel required><br><br>
 
 
->>>>>>> 410a4416ec9d5d5f311f394c9327f72efe26ee09
-        <button (click)="clickon()">Submit</button>
+                <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
+                    <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
+                    <input type="password" placeholder="password" name="password" ngModel required><br><br>
+                    <button>Submit</button>
 
-            <button>Submit </button>
-            <button (click)="clickon()">Submit like and </button>
-           
-<<<<<<< HEAD
+                    <button (click)="clickon()">Submit</button>
 
-=======
->>>>>>> 410a4416ec9d5d5f311f394c9327f72efe26ee09
-    </form>
+                    <button>Submit </button>
+                    <button (click)="clickon()">Submit like and </button>
+                </form>
 
-    <p>{{named}}</p>
+                <p>{{named}}</p>
 
-</div>
+        </div>
 
-<div *ngFor="let list of anyArray ; let i = index">
-    <ul>
-        <li>Name : {{list.firstname}}, Surname : {{list.lastname}}, Age: {{list.age}}, Gender : {{list.gender}}</li>
-    </ul>
-</div>
-<div>
-    <table>
-        <thead>
-            <tr>
-                <th>Name </th>
-                <th>Surname</th>
-                <th>Agegit</th>
-                <th>Gender</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let list of anyArray">
-                <td>{{list.firstname}}</td>
-                <td>{{list.lastname}}</td>
-                <td>{{list.age}}</td>
-                <td>{{list.gender}}</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        <div *ngFor="let list of anyArray ; let i = index">
+            <ul>
+                <li>Name : {{list.firstname}}, Surname : {{list.lastname}}, Age: {{list.age}}, Gender : {{list.gender}}
+                </li>
+            </ul>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name </th>
+                        <th>Surname</th>
+                        <th>Agegit</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let list of anyArray">
+                        <td>{{list.firstname}}</td>
+                        <td>{{list.lastname}}</td>
+                        <td>{{list.age}}</td>
+                        <td>{{list.gender}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
