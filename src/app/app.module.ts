@@ -8,6 +8,13 @@ import { Class1Component } from './class1/class1.component';
 import { Class2Component } from './class2/class2.component';
 import { Data1Service } from './data1.service';
 import { CapitalLetterPipe } from './capital-letter.pipe';
+<<<<<<< Updated upstream
+=======
+import { HttpClient } from '@angular/common/http';
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 
 
