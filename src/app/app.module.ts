@@ -10,6 +10,7 @@ import { Data1Service } from './data1.service';
 import { CapitalLetterPipe } from './capital-letter.pipe';
 
 import { HttpClient } from '@angular/common/http';
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
@@ -26,6 +27,8 @@ import { HttpClient } from '@angular/common/http';
 =======
 >>>>>>> Stashed changes
 >>>>>>> ceeca55901bf8afe80b13be166b0c73be0dded39
+=======
+>>>>>>> Stashed changes
 
 
 
