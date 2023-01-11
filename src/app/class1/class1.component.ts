@@ -8,7 +8,7 @@ import { Data1Service } from '../data1.service';
   templateUrl: './class1.component.html',
   styleUrls: ['./class1.component.scss'],
   
-  
+  gfye
   
 
 })
