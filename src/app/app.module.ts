@@ -10,6 +10,22 @@ import { Data1Service } from './data1.service';
 import { CapitalLetterPipe } from './capital-letter.pipe';
 
 import { HttpClient } from '@angular/common/http';
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> ceeca55901bf8afe80b13be166b0c73be0dded39
 
 
 
