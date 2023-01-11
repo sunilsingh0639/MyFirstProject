@@ -12,6 +12,9 @@ Enter Name:
 
 {{a|currency}}<br>-->
 
+
+<!-- {{p|percent}} -->
+
 {{p|percent}}
 <p>kys branch commit </p>
 
@@ -28,11 +31,14 @@ Enter Name:
     <input type="text" placeholder="Enter"  name="name" ngModel required><br><br>
 <input type="password" placeholder="password" name="password" ngModel required><br><br>
 
+
 <p>hello , i have added this
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
 <p>hello , i have added this
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magni officiis. Repellendus rerum accusantium doloremque beatae atque perspiciatis quidem, quas, tenetur vat!</p>
-git  
+
+
+    
 
 {{decimal|date:"dd/mm/yy"}}
 
@@ -54,6 +60,45 @@ git
     <form #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
         <input type="text" placeholder="Enter" name="name" ngModel required><br><br>
         <input type="password" placeholder="password" name="password" ngModel required><br><br>
+
+          <button type="submit">Submit</button>
+
+            
+            <button>Submit </button>
+            <button (click)="clickon()">Submit like and </button>
+        
+
+    </form>
+    <p>{{named}}</p>
+
+</div>
+
+<div *ngFor="let list of anyArray ; let i = index">
+    <ul>
+        <li>Name : {{list.firstname}}, Surname : {{list.lastname}}, Age: {{list.age}}, Gender : {{list.gender}}</li>
+    </ul>
+</div>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>Surname</th>
+                <th>Agegit</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of anyArray">
+                <td>{{list.firstname}}</td>
+                <td>{{list.lastname}}</td>
+                <td>{{list.age}}</td>
+                <td>{{list.gender}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+=======
 
         <p>hello , i have added this
 
@@ -134,3 +179,4 @@ git
                 </tbody>
             </table>
         </div>
+
